@@ -1,0 +1,10 @@
+--- xt/release/test-version.t
++++ xt/release/test-version.t
+@@ -18,5 +18,5 @@ push @imports, $params
+ 
+ Test::Version->import(@imports);
+ 
+-version_all_ok;
+-done_testing;
++plan tests => 2;
++version_all_ok();
