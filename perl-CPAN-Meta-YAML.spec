@@ -2,7 +2,7 @@
 
 Name:		%{?scl_prefix}perl-CPAN-Meta-YAML
 Version:	0.018
-Release:	368%{?dist}
+Release:	367%{?dist}
 Summary:	Read and write a subset of YAML for CPAN Meta files
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -84,9 +84,6 @@ make test TEST_FILES="xt/*/*.t"
 %{_mandir}/man3/CPAN::Meta::YAML.3*
 
 %changelog
-* Sun Jul 24 2016 Petr Pisar <ppisar@redhat.com> - 0.018-368
-- Rebuild without bootstrap
-
 * Mon Jul 11 2016 Petr Pisar <ppisar@redhat.com> - 0.018-367
 - SCL
 
