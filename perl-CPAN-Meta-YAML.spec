@@ -16,7 +16,7 @@
 
 Name:		%{?scl_prefix}perl-CPAN-Meta-YAML
 Version:	0.018
-Release:	451%{?dist}
+Release:	452%{?dist}
 Summary:	Read and write a subset of YAML for CPAN Meta files
 License:	GPL+ or Artistic
 URL:		https://metacpan.org/release/CPAN-Meta-YAML
@@ -95,6 +95,9 @@ find %{buildroot} -type f -name .packlist -delete
 %{_mandir}/man3/CPAN::Meta::YAML.3*
 
 %changelog
+* Tue Jan 07 2020 Jitka Plesnikova <jplesnik@redhat.com> - 0.018-452
+- Re-rebuild of bootstrapped packages
+
 * Fri Dec 20 2019 Jitka Plesnikova <jplesnik@redhat.com> - 0.018-451
 - SCL
 
